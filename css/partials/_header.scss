@@ -1,0 +1,67 @@
+header{
+    #upper-header{
+        h1{
+            margin: 15px 0;
+            float: left;
+            font-size: 30px;
+            line-height: 1;
+            vertical-align: middle;
+            .logo{
+                img{
+                    width: 30px;
+                }
+            }
+        }
+        button{
+            margin: 15px 5px;
+            float: right;
+            width: 150px;
+            padding: 3px;
+            text-align: center;
+            color: white;
+            background-color: ligthblue;
+            border-radius: 5px;
+        }  
+        form{
+            margin: 15px 0;
+            float: right;
+            .search {
+                float: left;
+                padding: 2px;
+                width: 100px;
+            }
+            .search-submit{
+                float: left;
+                width: 26px;
+                padding: 3px;
+                background-image: url("../images/scope.png");
+                background-size: 20px 20px;
+                background-position: center;
+            }
+        }
+    }
+    #lower-header{
+        clear: both;
+        height: 50px;
+        padding: 10px;
+        background-color: white;
+        h2{
+            padding: 15px 0 5px 0;
+            float: right;
+            font-size: 18px;
+        }
+        ul{
+            padding: 15px 0 5px 0;
+            list-style-type: none;
+            li{
+                font-size: 12px;
+                float: left;
+                padding: 5px;
+                border-right: 1px solid lightgray;
+                &:last-child{
+                    border: none;
+                }
+            }
+        }
+    }
+}

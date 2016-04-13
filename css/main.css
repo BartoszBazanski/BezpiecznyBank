@@ -1,0 +1,55 @@
+header #upper-header h1 {
+  margin: 15px 0;
+  float: left;
+  font-size: 30px;
+  line-height: 1;
+  vertical-align: middle; }
+  header #upper-header h1 .logo img {
+    width: 30px; }
+header #upper-header button {
+  margin: 15px 5px;
+  float: right;
+  width: 150px;
+  padding: 3px;
+  text-align: center;
+  color: white;
+  background-color: ligthblue;
+  border-radius: 5px; }
+header #upper-header form {
+  margin: 15px 0;
+  float: right; }
+  header #upper-header form .search {
+    float: left;
+    padding: 2px;
+    width: 100px; }
+  header #upper-header form .search-submit {
+    float: left;
+    width: 26px;
+    padding: 3px;
+    background-image: url("../images/scope.png");
+    background-size: 20px 20px;
+    background-position: center; }
+header #lower-header {
+  clear: both;
+  height: 50px;
+  padding: 10px;
+  background-color: white; }
+  header #lower-header h2 {
+    padding: 15px 0 5px 0;
+    float: right;
+    font-size: 18px; }
+  header #lower-header ul {
+    padding: 15px 0 5px 0;
+    list-style-type: none; }
+    header #lower-header ul li {
+      font-size: 12px;
+      float: left;
+      padding: 5px;
+      border-right: 1px solid lightgray; }
+      header #lower-header ul li:last-child {
+        border: none; }
+
+body {
+  background-color: lightgray; }
+
+/*# sourceMappingURL=main.css.map */
