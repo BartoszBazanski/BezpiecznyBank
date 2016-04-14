@@ -1,4 +1,12 @@
+@import "modals/variables";
 @import "partials/header";
+@import "partials/jumbotron";
+@import "partials/offer";
+
+
 body{
     background-color: lightgray;
+}
+button {
+    border: none;
 }
