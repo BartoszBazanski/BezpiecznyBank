@@ -4,18 +4,30 @@
         height: 400px;
         padding: 0;
         background-image: url("../images/jumbo.png");
+        background-color: $main-color;
+        background-position: -1px 20px;
         background-size: cover;
         background-repeat: no-repeat;
+        &:before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background-image: url("../images/decoration.png");
+        }
         .info-panel {
             background-color: $main-color;
-            border-radius: 5px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
             position: absolute;
             right: 0;
             top: 100px;
+            min-width: 150px;
             width: 40%;
             text-align: left;
-            padding: 20px 15px 10px;
-            margin-right: 25px;
+            padding: 30px;;
             color: white;
             .info-button{
                 background-color: black;
@@ -23,7 +35,7 @@
                 width: 150px;
                 padding: 10px;
                 text-transform: uppercase;
-                border-radius: 10px;
+                border-radius: 5px;
             }
             h3{
                 font-size: 25px;
