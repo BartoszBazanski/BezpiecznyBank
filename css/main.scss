@@ -2,11 +2,28 @@
 @import "partials/header";
 @import "partials/jumbotron";
 @import "partials/offer";
-
+@import "partials/action";
+@import "partials/clients";
+@import "partials/footer";
 
 body{
     background-color: lightgray;
+    font-size: 18px;
 }
 button {
     border: none;
+}
+.wrap{
+	display: table;
+	width: 100%;
+	padding: 25px 0;
+}
+h3{
+    font-size: 1.5em;
+}
+h4{	
+	font-size: 1.1em;
+	a{
+	    text-decoration: underline;
+	}
 }

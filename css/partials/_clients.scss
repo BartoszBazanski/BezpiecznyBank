@@ -1,0 +1,19 @@
+#clients{
+	.wrap{
+		background-color: white;
+		.client{
+			h4{
+				font-weight: bold;
+			}
+			padding: 30px;
+			ul{
+				list-style-type: square;
+				padding-left: 30px;
+				li{
+					color: gray;
+					padding: 10px;
+				}
+			}
+		}
+	}
+}

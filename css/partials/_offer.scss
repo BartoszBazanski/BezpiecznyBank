@@ -1,25 +1,18 @@
 #offer{
     .wrap{
-        display: table;
         background-color: white;
-        padding: 0;
         .mortgage, .calculator{
             padding: 50px;
         }
         img{
             float: left;
             width: 30%;
-            padding: 25px 0;
         }
         .mortgage-info{
             width: 70%;
             float: right;
-            padding: 25px 50px 25px 25px;
-            h3{
-                font-size: 25px;
-            }
+            padding: 0 30px;
             h4{
-                text-decoration: underline;
                 text-align: right;
             }
         }

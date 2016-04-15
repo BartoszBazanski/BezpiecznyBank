@@ -81,29 +81,100 @@ header #lower-header {
       text-transform: uppercase; }
 
 #offer .wrap {
-  display: table;
-  background-color: white;
-  padding: 0; }
+  background-color: white; }
   #offer .wrap .mortgage, #offer .wrap .calculator {
     padding: 50px; }
   #offer .wrap img {
     float: left;
-    width: 30%;
-    padding: 25px 0; }
+    width: 30%; }
   #offer .wrap .mortgage-info {
     width: 70%;
     float: right;
-    padding: 25px 50px 25px 25px; }
-    #offer .wrap .mortgage-info h3 {
-      font-size: 25px; }
+    padding: 0 30px; }
     #offer .wrap .mortgage-info h4 {
-      text-decoration: underline;
       text-align: right; }
 
+#actions .wrap {
+  background-color: #50C5DA; }
+  #actions .wrap .action {
+    text-align: center;
+    padding: 30px;
+    color: white; }
+    #actions .wrap .action .image-wrap {
+      margin: 0 auto;
+      width: 30%; }
+      #actions .wrap .action .image-wrap .action-image {
+        width: 100%;
+        padding-bottom: 100%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      #actions .wrap .action .image-wrap #online {
+        background-image: url("../images/online.png"); }
+      #actions .wrap .action .image-wrap #chat {
+        background-image: url("../images/bubble.png"); }
+      #actions .wrap .action .image-wrap #percent {
+        background-image: url("../images/percent.png"); }
+    #actions .wrap .action .action-name {
+      font-size: 1.4em;
+      margin-top: 20px; }
+    #actions .wrap .action .action-description {
+      margin-bottom: 20px; }
+    #actions .wrap .action .action-button {
+      font-size: 1.25em;
+      width: 70%;
+      padding: 10px;
+      background-color: transparent;
+      border-radius: 5px;
+      border: 1px solid white; }
+    #actions .wrap .action p {
+      padding: 5px 0; }
+
+#clients .wrap {
+  background-color: white; }
+  #clients .wrap .client {
+    padding: 30px; }
+    #clients .wrap .client h4 {
+      font-weight: bold; }
+    #clients .wrap .client ul {
+      list-style-type: square;
+      padding-left: 30px; }
+      #clients .wrap .client ul li {
+        color: gray;
+        padding: 10px; }
+
+footer {
+  padding: 10px 0;
+  color: gray;
+  font-size: .8em; }
+  footer p {
+    padding: 5px 0; }
+  footer .copyright {
+    width: 70%;
+    float: left; }
+  footer .map {
+    text-align: right;
+    width: 30%;
+    float: right; }
+
 body {
-  background-color: lightgray; }
+  background-color: lightgray;
+  font-size: 18px; }
 
 button {
   border: none; }
+
+.wrap {
+  display: table;
+  width: 100%;
+  padding: 25px 0; }
+
+h3 {
+  font-size: 1.5em; }
+
+h4 {
+  font-size: 1.1em; }
+  h4 a {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */

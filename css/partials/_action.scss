@@ -1,0 +1,48 @@
+#actions{
+    .wrap{
+        background-color: $main-color;
+        .action{
+            text-align: center;
+            padding: 30px;
+            color: white;
+            .image-wrap{
+                margin: 0 auto;
+                width: 30%;
+                .action-image{
+                    width: 100%;
+                    padding-bottom: 100%;
+                    background-position: center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                #online{
+                    background-image: url("../images/online.png");
+                }
+                #chat{
+                    background-image: url("../images/bubble.png");
+                }
+                #percent{
+                    background-image: url("../images/percent.png");
+                }
+            }
+            .action-name{
+                font-size: 1.4em;
+                margin-top: 20px;
+            }
+            .action-description{
+                margin-bottom: 20px;
+            }
+            .action-button{
+                font-size: 1.25em;
+                width: 70%;
+                padding: 10px;
+                background-color: transparent;
+                border-radius: 5px;
+                border: 1px solid white;
+            }
+            p{
+                padding: 5px 0;
+            }
+        }
+    }
+}
